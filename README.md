@@ -27,3 +27,7 @@ Try to write a regular expression that will validate HTML. Note that the full va
 
 ## Part Two:
 Go back and add form validation to recent projects with user input. This can be by exporting a module or creating a new function.
+
+### Liner notes:
+* Used GitKraken
+* Used fieldsets/legends to group forms
