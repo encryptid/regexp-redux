@@ -9,18 +9,18 @@ You should write all of your functions in a single module and export them as pro
 ## Normal mode
 Write a function to validate a variety of different types of user inputs. Verify that your functions correctly validate the inputs ~~using the provided mocha tests~~.
 
-* First / last name
-* Phone numbers
-* Email address
-* Street addresses
-* Usernames
-* URL's
-* IPv4 addresses
+- [ ] First / last name
+- [ ] Phone numbers
+- [ ] Email address
+- [ ] Street addresses
+- [ ] Usernames
+- [ ] URL's
+- [ ] IPv4 addresses
 
 ## Hard mode
-* Reformat the above fields to a standardized format (remove extra spaces, standardize capitalization, add parentheses to phone numbers, etc).
+- [ ] Reformat the above fields to a standardized format (remove extra spaces, standardize capitalization, add parentheses to phone numbers, etc).
 
-* Use the regular expressions to validate a simple form. The form itself doesn't have to do anything.
+- [ ] Use the regular expressions to validate a simple form. The form itself doesn't have to do anything.
 
 ## Nightmare mode
 Try to write a regular expression that will validate HTML. Note that the full validator is gonna be really complex, but see if you can handle a more straightforward subset.
