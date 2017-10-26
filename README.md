@@ -9,13 +9,13 @@ You should write all of your functions in a single module and export them as pro
 ## Normal mode
 Write a function to validate a variety of different types of user inputs. Verify that your functions correctly validate the inputs ~~using the provided mocha tests~~.
 
-- [ ] First / last name
-- [ ] Phone numbers
-- [ ] Email address
-- [ ] Street addresses
-- [ ] Usernames
-- [ ] URL's
-- [ ] IPv4 addresses
+- [x] First / last name
+- [x] Phone numbers
+- [x] Email address
+- [x] Street addresses
+- [x] Usernames
+- [x] URL's
+- [x] IPv4 addresses
 
 ## Hard mode
 - [ ] Reformat the above fields to a standardized format (remove extra spaces, standardize capitalization, add parentheses to phone numbers, etc).
