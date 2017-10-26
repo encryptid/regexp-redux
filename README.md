@@ -15,7 +15,7 @@ Write a function to validate a variety of different types of user inputs. Verify
 - [x] Street addresses
 - [x] Usernames
 - [x] URL's
-- [x] IPv4 addresses
+- [ ] IPv4 addresses
 
 ## Hard mode
 - [ ] Reformat the above fields to a standardized format (remove extra spaces, standardize capitalization, add parentheses to phone numbers, etc).
