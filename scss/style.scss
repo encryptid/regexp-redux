@@ -7,11 +7,55 @@ body {
     background-color: black;
     color: white;
     font-family: "Permanent Marker", cursive;
-    text-align: center;
+    // text-align: center;
 }
 
-input {
+form {
+    border: 1px groove white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+
+    fieldset {
+        margin: 1vh auto;
+    }
+
+    .name input {
+        width: 80%;
+    }
+
+    .info input {
+        width: 60%;
+    }
+
+    .address {
+        //width: 30%;
+        #street {
+            display: block;
+            width: 60%;
+        }
+
+        #city {
+            width: 30%;
+        }
+
+        #state {
+            width: 8%;
+        }
+
+        #zip {
+            width: 12%;
+        }
+    }
+
+    .stuff {
+        display: block;
+        margin-bottom: 2vh;
+    }
+}
+
+button {
     display: block;
     margin: 2vh auto;
-    width: 33%;
 }

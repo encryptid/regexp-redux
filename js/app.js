@@ -1,5 +1,5 @@
 
-let testModule = require('./module'); // import module.js
+//let testModule = require('./module'); // import module.js
 
 window.addEventListener('load', function () {
     console.log('rolled together with a burning paper heart');
@@ -37,24 +37,16 @@ window.addEventListener('load', function () {
     console.log(tests);
 
     let submit = document.querySelector('button');
-    submit.addEventListener('click', function() {
+    submit.addEventListener('click', checkAll);
+
+    function checkAll() {
         console.log('button works!');
         for (let i = 0; i < tests.length; i++) {
             if (tests[i].test(queries[i].value) === true) {
                 console.log('all good!');
-                
             } else {
                 console.log('error(s) found on ' + tests[i] + ' for ' + queries[i].value);
             };
         };
-    });
-
-    // first.addEventListener('keyup', function() {
-    //     if (nameCheck.test(first.value) === true) {
-    //         console.log(first.value + ` is good!`);
-    //     } else {
-    //         console.log('wait! ' + first.value + ` is no good!`);
-    //     }
-    // });
-
+    };
 });
