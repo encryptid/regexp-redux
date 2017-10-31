@@ -49,4 +49,14 @@ window.addEventListener('load', function () {
             };
         };
     };
+
+    // pnum.addEventListener('keyup', function() {
+    //     if (pnumCheck.test === true) {
+    //         pnum.textContent = pnum.textContent.replace(" ", "");
+    //         if (pnum.textContent[0] !== '(') {
+    //             pnum.textContent[0] = "(";
+    //             pnum.textContent
+    //         }
+    //     }
+    // });
 });
